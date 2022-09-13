@@ -20,5 +20,9 @@ public class LoggingController {
     return "healthy";
   }
 
+  @GetMapping("/test")
+  public String action() {
+    return "테스트";
+  }
 }
 

@@ -24,5 +24,6 @@ public class LoggingController {
   public String action() {
     return "테스트";
   }
+  //
 }
 
